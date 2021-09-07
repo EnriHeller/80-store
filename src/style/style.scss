@@ -1,0 +1,17 @@
+@import "./sass/variables";
+@import "./sass/mixins";
+
+*{
+    @include format-document;
+}
+
+body{
+    background: $background-color2;
+    background: linear-gradient(180deg, $background-color2 20%, $background-color1 100%); 
+}
+
+@import "./sass/header";
+@import "./sass/main";
+@import "./sass/main-checkout";
+@import "./sass/footer";
+@import "./sass/funcionalidades";

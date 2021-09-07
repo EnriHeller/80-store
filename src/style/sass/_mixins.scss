@@ -1,0 +1,34 @@
+@import "./variables";
+
+@mixin format-document {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    outline: none;
+}
+
+@mixin column-disposition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin titulo--style {
+    padding: 20px;
+    border: 1px solid $color-1;
+    border-radius: 40px;
+    font-family: $font-family-1;
+    font-size: 25px;
+    color: $color-1;
+    background-color: $background-color2;
+}
+
+@mixin container--style{
+    width: 90vw;
+    background-color: $background-color2;
+    border: 1px solid $color-1;
+    border-radius: 40px;
+}

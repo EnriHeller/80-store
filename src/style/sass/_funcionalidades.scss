@@ -1,0 +1,10 @@
+@import "./variables";
+.containerMouseOver{
+    background-color: $background-color1;
+    cursor: pointer;
+}
+
+.containerToggle{
+    background-color: $color-1;
+    color: $background-color1;
+}

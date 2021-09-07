@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>80s Store - checkout</title>
+    <link rel="stylesheet" href="./src/style/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html">
+            <img src="./src/assets/logo-header.png" alt="Logo" class="logo__header">
+        </a>
+
+        <img src="./src/assets/titulo.png" alt="Titulo" class="titulo__header">
+    </header>
+
+
+    <main class="main">
+        <h2 class="check-titulo__main">Tus productos</h2>
+
+        <article class="check-productos__main">
+            <div class="articulo__check-productos">
+                <img src="./src/assets/productos/campera-mcfly.jpg" class="imagen-articulo" alt="tu producto">
+                <div class="info-articulo">
+                    <p class="nombre-articulo">
+                        Lorem
+                    </p>
+                    <p class="descripcion-articulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. !</p>
+                </div>
+                <p class="precio-articulo">$$$</p>
+            </div>
+        </article>
+
+        <h2 class="check-titulo__main total">Total: $$$</h2>
+
+        <h2 class="datos-titulo__main">Opciones de pago</h2>
+
+        <section class="datos-container__main">
+            <div class="radios-compra">
+                <div class="opc-compra-container">
+                    <label class="opc-compra" for="local">
+                        <img class="img__opc-compra" src="./src/assets/retiro-local.png" alt="Retiro en el local">
+                    </label>
+                    <h2 class="titulo-dato">Retiro en el local</h2>
+
+                    <input type="radio" name="opc-compra" id="local">
+                </div>
+    
+                <div class="opc-compra-container">
+                    <label class="opc-compra" for="online">
+                        <img class="img__opc-compra" src="./src/assets/compra-online.png" alt="Compra online">
+                    </label>
+                    <h2 class="titulo-dato">Compra Online</h2>
+                    <input type="radio" name="opc-compra" id="online">
+                </div>
+            </div>
+
+
+            <form class="datos__main online-active">
+                <label class="titulo-dato" for="tarjeta">Número de tarjeta de crédito:</label>
+                <input type="text" id="tarjeta" class="input-dato">
+
+                <label class="titulo-dato" for="codigo">Código de seguridad:</label>
+                <input type="text" id="codigo" class="input-dato">
+                
+                <label class="titulo-dato" for="dni">DNI:</label>
+                <input type="text" id="dni" class="input-dato">
+            </form>
+
+            <div class="local-active">
+                <h2 class="titulo-dato">¡Te lo reservamos a tu nombre!</h2>
+                <p class="titulo-dato">Tenés una semana para retirar tu compra, la dirección es: R. Elias Garcia 80, 3880-213 Ovar, Portugal:</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.5503802674853!2d-8.624885885098397!3d40.85979433649842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2385c9983a460d%3A0x30211ea618cdb9fc!2s80&#39;%20Store!5e0!3m2!1ses-419!2sar!4v1622998008321!5m2!1ses-419!2sar" class="map" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+
+            <section class="opciones">
+                <a href="./checkout1.html"; class="siguiente">Atrás</a>
+                <a href="./compraexitosa.html"; class="siguiente">Finalizar</a>
+            </section>
+
+    </main>
+
+    
+    <footer class="footer">
+        <div class="icons-container__footer">
+            <a href="icon__footer">
+                <img src="./src/assets/icon_facebook.svg" alt="Facebook">
+                
+            </a>
+            <a href="" class="icon__footer">
+                <img src="./src/assets/icon-twitter.svg" alt="Twitter">
+            </a>
+            <a href="" class="icon__footer">
+                <img src="./src/assets/icon_instagram.svg" alt="Instagram">
+            </a>
+        </div>
+        <p class="parrafo__footer">Enrique Heller © "80s Store 2021". All Rights Reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

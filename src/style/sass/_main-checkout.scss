@@ -1,0 +1,119 @@
+@import "./mixins";
+@import "./variables";
+
+.check-titulo__main, .datos-titulo__main{
+    @include titulo--style;
+    text-align: center;
+    width: 25%;
+    margin: 24px;
+    align-self: flex-start
+}
+
+.check-productos__main{
+    @include container--style;
+}
+
+.articulo__check-productos{
+    display: flex;
+    padding: 34px;
+    align-items: center;
+    color: $color-1;
+}
+.info-articulo{
+    padding: 0 34px;
+    width: 60vw;
+}
+.nombre-articulo{
+    font-weight: bold;
+    font-family: $font-family-1;
+    margin: 16px 0;
+    font-size: 20px;
+}
+
+.precio-articulo{
+    justify-self: flex-end;
+    font-size: 20px;
+}
+
+.datos-container__main{
+    @include container--style;
+    padding: 24px;
+    margin-bottom: 30px;
+}
+
+.datos__main{
+    @include column-disposition;
+    align-items: flex-start;
+}
+
+.total{
+    align-self: flex-end;
+}
+.titulo-dato{
+    color: $color-1;
+    font-weight: bold;
+    font-family: $font-family-1;
+    margin: 10px;
+}
+
+.input-dato{
+    background-color: transparent;
+    border: 2px solid $color-1;
+    width: 40%;
+    padding: 10px;
+    border-radius: 40px;
+    color: $color-1;
+    margin-bottom: 10px;
+}
+
+.opciones{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.local-active{
+    display: flex;
+    flex-direction: column;
+}
+
+.radios-compra{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+};
+
+.opc-compra-container{
+    border-radius: 100%;
+    padding: 30px;
+    @include column-disposition;
+    align-content: center;
+}
+
+.img__opc-compra{
+    width: 10vw;
+}
+.map{
+    margin: 16px;
+    width: 60vw;
+    height: 40vh;
+    border: none;
+    align-self: center;
+
+}
+
+.fix-titulo{
+    margin-top: 100px;
+}
+
+
+.fix-opciones{
+    justify-content: center;
+    padding: 16px;
+    border: 1px solid $color-1;
+    width: 200px;
+    border-radius: 40px;
+    margin-top: 60px;
+    
+}
+

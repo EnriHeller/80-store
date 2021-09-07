@@ -1,0 +1,21 @@
+@import "./variables";
+@import "./mixins";
+
+.header{
+    background-color: $background-color1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid $color-1;
+    border-radius: 40px;
+    padding: 16px 40px;
+    margin:16px;
+}
+
+.logo__header{
+    width: 10%;
+}
+
+.titulo__header{
+    width: 25%;
+}
